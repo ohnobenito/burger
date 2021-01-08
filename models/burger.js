@@ -1,5 +1,6 @@
 let orm = require("../config/orm.js");
 
+//Uses functions from ORM with data from burgers db
 let burger = {
     selectAll: function(cb) {
         orm.selectAll("burgers", function(res) {
@@ -19,5 +20,5 @@ let burger = {
         });
     }
 };
-
+//Export as burger
 module.exports = burger;
