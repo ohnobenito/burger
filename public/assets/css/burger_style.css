@@ -1,0 +1,74 @@
+/*
+COLOR HEX
+--aquamarine: #a9ffcbff;
+--razzle-dazzle-rose: #ff3cc7ff;
+--red-ryb: #ff1b1cff;
+--blue-sapphire: #05668dff;
+--saffron: #e1bc29ff;
+
+FONT INDEX
+font-family: 'Fredoka One', cursive;
+font-family: 'Pacifico', cursive;
+*/
+
+
+body {
+    background-color: #a9ffcb;
+    
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    color: #ff3cc7;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: black;
+}
+h3 {
+font-family: 'Fredoka One', cursive;
+color: #ff3cc7;
+text-align: center;
+}
+
+h2 {
+    font-family: 'Fredoka One', cursive;
+    color: #ff3cc7;
+    text-align: center;
+}
+
+ul {
+    font-family: 'Pacifico', cursive;
+    list-style-type: none;
+    text-align: center;
+}
+
+.create-form {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .change-devoured {
+    color: #151E3F;
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    size: 20px;
+    
+  }
+
+#devo {
+    font-family: 'Fredoka One', cursive;
+    border-color: black;
+    background-color: #ff3cc7;
+}
