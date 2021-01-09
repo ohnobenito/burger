@@ -13,8 +13,7 @@ font-family: 'Pacifico', cursive;
 
 
 body {
-    background-color: #a9ffcb;
-    
+    background-color: #a9ffcb;    
 }
 
 h1 {
@@ -22,7 +21,6 @@ h1 {
     color: #ff3cc7;
     text-align: center;
     font-size: 50px;
-    text-decoration: black;
 }
 h3 {
 font-family: 'Fredoka One', cursive;
@@ -58,17 +56,11 @@ ul {
     display: table;
     clear: both;
   }
-  .change-devoured {
-    color: #151E3F;
-    background-color: transparent;
-    border: none;
-    display: inline-block;
-    size: 20px;
-    
-  }
 
-#devo {
+  
+#devo, #button {
     font-family: 'Fredoka One', cursive;
     border-color: black;
     background-color: #ff3cc7;
 }
+
